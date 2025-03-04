@@ -24,25 +24,25 @@ git clone https://github.com/your-username/schelling-agent-perspectives.git
 cd schelling-agent-perspectives
 ```
 
-📦 Install dependencies
+### 📦 Install dependencies
 ```bash
 pip install numpy matplotlib openai
 ```
 
-🔑 Set your OpenAI API key
+### 🔑 Set your OpenAI API key
 ```bash
 export OPENAI_API_KEY="your-api-key"
 ```
 
-▶️ Run the simulation
+### ▶️ Run the simulation
 ```bash
 python schelling.py
 ```
 
-🖱️ Click on agents in the grid
+### 🖱️ Click on agents in the grid
 After running the script, a Matplotlib window will open. Click on an agent (Red or Blue) to reveal their LLM-generated perspective.
 
-⚙️ Customization
+### ⚙️ Customization
 You can modify parameters in schelling.py to adjust the simulation:
 
 Grid size: Change GRID_SIZE to make the simulation larger or smaller.
@@ -50,6 +50,7 @@ Empty space ratio: Adjust EMPTY_RATIO to increase or decrease available spots.
 Dynamic Thresholds: Toggle DYNAMIC_THRESHOLDS = True to enable personality-based segregation preferences.
 Custom Personalities: Modify PERSONALITY_OPTIONS and PERSONALITY_THRESHOLD_MAP to define new personality types and tolerance levels.
 LLM Model Choice: Change MODEL_NAME to use gpt-4 or gpt-3.5-turbo.
+
 🌱 Future Enhancements
 ⏩ Step-by-Step Simulation – Implement movement over time as agents relocate based on their preferences.
 🎨 Graphical Interface – Replace Matplotlib with a GUI framework for richer interactions.
