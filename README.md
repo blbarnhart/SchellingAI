@@ -43,19 +43,26 @@ python schelling.py
 After running the script, a Matplotlib window will open. Click on an agent (Red or Blue) to reveal their LLM-generated perspective.
 
 ### ⚙️ Customization
-You can modify parameters in schelling.py to adjust the simulation:
+You can modify parameters in `schelling.py` to adjust the simulation:
 
-Grid size: Change GRID_SIZE to make the simulation larger or smaller.
-Empty space ratio: Adjust EMPTY_RATIO to increase or decrease available spots.
-Dynamic Thresholds: Toggle DYNAMIC_THRESHOLDS = True to enable personality-based segregation preferences.
-Custom Personalities: Modify PERSONALITY_OPTIONS and PERSONALITY_THRESHOLD_MAP to define new personality types and tolerance levels.
-LLM Model Choice: Change MODEL_NAME to use gpt-4 or gpt-3.5-turbo.
+- **Grid size**: Change `GRID_SIZE` to make the simulation larger or smaller.  
+- **Empty space ratio**: Adjust `EMPTY_RATIO` to increase or decrease available spots.  
+- **Dynamic Thresholds**: Toggle `DYNAMIC_THRESHOLDS = True` to enable **personality-based segregation preferences**.  
+- **Custom Personalities**: Modify `PERSONALITY_OPTIONS` and `PERSONALITY_THRESHOLD_MAP` to define **new personality types and tolerance levels**.  
+- **LLM Model Choice**: Change `MODEL_NAME` to use `gpt-4` or `gpt-3.5-turbo`.  
 
-🌱 Future Enhancements
-⏩ Step-by-Step Simulation – Implement movement over time as agents relocate based on their preferences.
-🎨 Graphical Interface – Replace Matplotlib with a GUI framework for richer interactions.
-🏘️ Neighborhood Effects – Introduce external factors like economic incentives or peer influence.
-📜 License
-This project is licensed under the MIT License – feel free to modify and experiment! 🚀
+---
 
-💡 Contributions are welcome! If you have ideas for improvements, feel free to submit a pull request or open an issue.
+### 🌱 Future Enhancements
+- ⏩ **Step-by-Step Simulation** – Implement movement over time as agents relocate based on their preferences.  
+- 🎨 **Graphical Interface** – Replace Matplotlib with a GUI framework for richer interactions.  
+- 🏘️ **Neighborhood Effects** – Introduce external factors like economic incentives or peer influence.  
+
+---
+
+### 📜 License
+This project is licensed under the **MIT License** – feel free to modify and experiment! 🚀  
+
+---
+
+💡 **Contributions are welcome!** If you have ideas for improvements, feel free to submit a pull request or open an issue.
